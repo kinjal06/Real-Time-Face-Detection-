@@ -1,0 +1,8 @@
+1. Include the xml files in the same folder as the current running folder and the program folder.
+
+2. Use a gcc compiler to compile the program using the following command on commandline.
+g++ -I/usr/include/opencv harr.cpp -o harr -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann
+
+3. Connect the camera to the PC and change the executable permission to 777 using chmod.
+
+4. Run the program using ./harr
